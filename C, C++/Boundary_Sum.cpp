@@ -20,7 +20,6 @@ sum+=root->data; //add root value (step2)
 //find the leaf nodes & add(step3)
 tree* temp=root, *store; //copy root to temp
 queue<tree*> q; //creat a queue to store tree* variables (pointer to nodes)
-
 //doing level order traversal
 q.push(temp);
 while(!q.empty()){
@@ -73,7 +72,6 @@ tree* newnode(int data)
 	node->right = NULL; 
 	return(node); 
 } 
-
 int main() 
 { 
 	//**same tree is builted as shown in example**
