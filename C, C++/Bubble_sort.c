@@ -1,5 +1,6 @@
 // Program for bubble sort of array
 #include<stdio.h>
+#include <stlib.h>
 void BubbleSort(int a[20],int N)
 {
      int i,j,k;
@@ -19,7 +20,6 @@ void BubbleSort(int a[20],int N)
      {
             printf("%d\t",a[i]);
      }
-
 }
 void main()
 {
